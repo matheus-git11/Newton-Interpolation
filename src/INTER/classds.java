@@ -45,7 +45,7 @@ public class classds {
 		double sum = y[0][0];
 		double u = (valor[k] - x[0]) / (x[1] - x[0]);
 		for (int i = 1; i < n; i++) {
-			sum = sum + (Calcular(u, i) * y[0][i]) / //
+			sum = sum + (Calcular(u, i) * y[0][i])/
 									fatorial(i); 
 		}
 		System.out.println("o valor "+valor[k]+" corresponde á "+ sum);
